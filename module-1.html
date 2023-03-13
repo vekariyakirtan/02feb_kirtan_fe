@@ -10,8 +10,10 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
     information that is displayed on the web page. For example, a paragraph element would be made up of the
     opening "<p>" tag, the text content, and the closing "</p>" tag. So while tags are used to create elements, they are
     not the same thing as the elements themselves.
-    ******************************************************************************* Q-2. What are tags and attributes in
-    HTML? Tags and attributes are two fundamental concepts in HTML (Hypertext Markup Language), which is used to create
+    *******************************************************************************
+    Q-2. What are tags and attributes in  HTML?
+
+    Tags and attributes are two fundamental concepts in HTML (Hypertext Markup Language), which is used to create
     web pages. Tags are used to define the structure and content of a web page. They are enclosed in angle brackets (<>)
     and come in pairs, with the opening tag and closing tag wrapping around the content they are defining. For example,
     the <p> tag is used to define a paragraph of text:
@@ -61,25 +63,55 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
         *******************************************************************************
 
-        Q-5. What are different types of lists in HTML? • What is the ‘class’ attribute in HTML?
+        Q-5. What are different types of lists in HTML?
 
-        Ordered list - In this type of list, each item is numbered in sequence. Ordered lists are created using the <ol>
-            tag.
+        There are three types of lists in HTML:
 
-            Unordered list - In this type of list, each item is marked with a bullet point or some other symbol to
-            indicate a list item. Unordered lists are created using the <ul> tag.
+        Ordered lists (ol): An ordered list is a list of items that are numbered in a specific order. Each list item is marked with a number, usually starting with 1. Ordered lists are created using the <ol> tag and list items are created using the <li> tag. Here is an example:
 
-                Definition list - This type of list consists of a series of terms and their definitions. Definition
-                lists are created using the <dl> tag, with each term defined by the <dt> tag and each definition by the
-                    <dd> tag.
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
+        Unordered lists (ul): An unordered list is a list of items that are marked with bullets or other special characters, without any particular order. Unordered lists are created using the <ul> tag and list items are created using the <li> tag. Here is an example:
 
-                        The 'class' attribute in HTML is used to define a class for an HTML element. The class attribute
-                        allows you to group related elements together and apply the same styles to all elements in the
-                        group using CSS (Cascading Style Sheets).
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ul>
+        Definition lists (dl): A definition list is a list of terms and their definitions. Each term is defined by one or more definitions. Definition lists are created using the <dl> tag, term or definition are created using the <dt> and <dd> tag respectively. Here is an example:
 
-                        *******************************************************************************
+        <dl>
+          <dt>Term 1</dt>
+          <dd>Definition 1</dd>
+          <dt>Term 2</dt>
+          <dd>Definition 2</dd>
+          <dt>Term 3</dt>
+          <dd>Definition 3</dd>
+        </dl>
+        In this example, each term is defined by its corresponding definition. The <dt> tag is used to define the term, and the <dd> tag is used to define the definition.
 
-                        Q-6. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+ **************************************************************************************************
+
+     Q-6.  What is the ‘class’ attribute in HTML?
+
+        The class attribute is used in HTML to specify one or more classes for an HTML element. Classes can be used to group similar elements together and apply CSS styles to them.
+
+        For example, consider the following HTML code:
+
+        <p class="intro">This is a paragraph.</p>
+        In this example, the class attribute is used to assign the class name "intro" to the <p> element. This class can then be used in a CSS stylesheet to apply specific styles to all elements with the "intro" class.
+
+        Multiple classes can be assigned to an element by separating them with a space, like this:
+
+        <p class="intro highlight">This is a highlighted paragraph.</p>
+        In this example, the class attribute assigns two classes to the <p> element, "intro" and "highlight". Both classes can be used in a CSS stylesheet to apply specific styles to elements with either class.
+
+    *******************************************************************************
+
+                        Q-7. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
                         elements?
 
                         The main difference between the 'id' attribute and the 'class' attribute of HTML elements is
@@ -108,7 +140,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
                         *******************************************************************************
 
-                        Q-7. What are the various formatting tags in HTML?
+                        Q-8. What are the various formatting tags in HTML?
 
                         HTML includes a variety of formatting tags that can be used to style text, apply emphasis,
                         create headings, and more. Some of the most commonly used formatting tags in HTML include:
@@ -134,7 +166,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
     
-    Q-8. How is Cell Padding different from Cell Spacing?
+    Q-9. How is Cell Padding different from Cell Spacing?
 
     Cell padding and cell spacing are two properties used in HTML to control the spacing and layout of tables.
 
@@ -144,7 +176,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-9. How can we club two or more rows or columns into a single row or column in an 
+    Q-10. How can we club two or more rows or columns into a single row or column in an 
     HTML table?
 
     To merge two or more rows into a single row or two or more columns into a single column in an HTML table, we can use the rowspan and colspan attributes.
@@ -183,7 +215,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-10. What is the difference between a block-level element and an inline element? 
+    Q-11. What is the difference between a block-level element and an inline element? 
 
     In HTML and CSS, elements can be classified as either block-level or inline. The main difference between these two types of elements is how they are displayed on a web page and how they interact with other elements.
 
@@ -193,7 +225,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-11. How to create a Hyperlink in HTML?
+    Q-12. How to create a Hyperlink in HTML?
 
     To create a hyperlink in HTML, you can use the anchor tag (<a>). Here's an example:
 
@@ -216,7 +248,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-12. What is the use of an iframe tag?
+    Q-13. What is the use of an iframe tag?
 
     The iframe (short for inline frame) tag in HTML is used to embed another HTML document inside the current document. It allows you to display content from a different source on your web page without having to navigate away from the current page.
 
@@ -229,7 +261,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-13.  What is the use of a span tag? Explain with example?
+    Q-14.  What is the use of a span tag? Explain with example?
 
     The <span> tag is an inline HTML element used to apply styling and formatting to small sections of text within a larger document. It is often used to target a specific piece of content and apply CSS styles or JavaScript functions to it, without affecting the layout or style of the surrounding content.
 
@@ -249,7 +281,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-14. 
+    Q-15. How to insert a picture into a background image of a web page? 
 
     To insert a picture into the background image of a web page, you can use CSS (Cascading Style Sheets). Here are the steps to do this:
 
@@ -290,7 +322,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-15. How are active links different from normal links? 
+    Q-16. How are active links different from normal links? 
 
     Active links are different from normal links in that they represent a link that is currently being interacted with by the user. This could be a link that the user is hovering over with their mouse or a link that the user has clicked on and is currently being directed to.
 
@@ -318,7 +350,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-16. What are the different tags to separate sections of text?
+    Q-17. What are the different tags to separate sections of text?
 
     There are several tags that can be used to separate sections of text, depending on the markup language or document format being used. Here are some examples:
 
@@ -346,7 +378,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-17. What is SVG?
+    Q-18. What is SVG?
 
     SVG stands for Scalable Vector Graphics. It is a vector image format that is used to display images and graphics on the web. Unlike bitmap images such as JPEGs or PNGs, which are made up of a fixed number of pixels, SVG images are based on mathematical equations, which means they can be scaled to any size without losing quality.
 
@@ -356,7 +388,7 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
 
     *******************************************************************************
 
-    Q-18. What is difference between HTML and XHTML?
+    Q-19. What is difference between HTML and XHTML?
 
     HTML (Hypertext Markup Language) and XHTML (Extensible Hypertext Markup Language) are both markup languages used for creating web pages. While they share many similarities, there are a few key differences between the two:
 
@@ -371,8 +403,18 @@ An HTML tag is a code that starts with the "<" symbol, followed by the name of t
     Overall, XHTML is seen as a more structured and strict version of HTML, while HTML is a more flexible and forgiving language. However, HTML5 has largely replaced XHTML as the preferred markup language for web pages.
 
     *******************************************************************************
-
     
+    Q-20. What are logical and physical tags in HTML? 
+
+    In HTML, tags are used to define the structure and content of web pages. There are two types of tags in HTML: logical tags and physical tags.
+
+    Logical tags, also known as semantic tags, are used to define the meaning of content on a web page. They describe the type of content that is contained within them. Examples of logical tags in HTML5 include <header>, <nav>, <section>, <article>, <aside>, and <footer>. These tags help search engines and other tools to understand the structure and content of a web page, which can be useful for search engine optimization (SEO) and accessibility.
+
+    Physical tags, also known as presentational tags, are used to define the appearance of content on a web page. They describe how the content should be displayed to the user, but they do not provide any information about the meaning or structure of the content. Examples of physical tags in HTML5 include <b>, <i>, <u>, and <font>. While physical tags can be useful for styling content, they are generally considered to be outdated and should be avoided in modern HTML.
+
+    It is recommended to use logical tags whenever possible to create a well-structured and semantically meaningful web page, rather than relying on physical tags for presentation.
+
+    *******************************************************************************
 
 
 

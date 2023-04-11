@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/module-1.css" type="text/css">
+</head>
+
+<body>
+    <center><h1 class="main-h1"> MODULE: 1 (HTML) </h1></center> <br> <hr><hr>
+    <h3 class="text-h3">Q-1. Are the HTML tags and elements the same thing?</h3>
+    <p> <span> ANS:- </span> &nbsp; HTML tags and elements are not the same thing, although they are
+        closely related.
+
+        An HTML tag is a code that is used to define the start and end of an HTML element. For example, the tag is used
+        to indicate the beginning of a paragraph, and the tag is used to indicate the end of that paragraph.
+
+        An HTML element, on the other hand, is made up of the opening tag, the content inside the element, and the
+        closing tag. For example, a paragraph element would consist of the opening tag, the text or other content of the
+        paragraph, and the closing tag.</p>
+    <hr>
+    <hr>
+
+
+    <h3 class="text-h3">Q-2. What are tags and attributes in HTML?</h3>
+    <p><span> ANS:- </span> &nbsp; In HTML, tags and attributes are used to define the structure and
+        content of a web page.
+
+        Tags are used to create HTML elements and define their purpose and meaning. HTML tags are enclosed in angle
+        brackets (<>) and are used to specify the type of element that you want to create.
+
+            For example, the <h2> tag is used to define a heading element, and the tag is used to define a paragraph
+                element.</h2>
+    </p>
+
+    <p class="text-p attributes">Attributes, on the other hand, are used to provide additional information about an HTML
+        element. Attributes are added to the opening tag of an HTML element and are used to modify the element's
+        behavior or appearance.
+
+        For example, the src attribute is used to specify the source of an image element, and the href attribute is used
+        to specify the URL of a hyperlink element.
+
+        Here's an example of an image element with a src attribute:
+
+        <img src="" alt="">
+    </p>
+    <hr>
+    <hr>
+
+
+    <h3 class="text-h3">Q-3. What are void elements in HTML?</h3>
+    <p> <span> ANS:- </span> &nbsp; Void elements, also known as empty elements or self-closing elements, are HTML
+        elements that do not have a closing tag. Here are some examples of void elements in HTML:<br>
+
+        <img> Used to display images on a web page.
+        <!-- Example: <img src="image.jpg" alt="A beautiful landscape" /> --> <br>
+
+        input:- Used to create input fields, such as text boxes or checkboxes.
+        Example: <input type="text" name="username" /><br>
+
+        <br> Used to insert a line break or carriage return.
+        <br> Example: This is the first line.<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This is the
+        second line.<br><br>
+
+        Void elements are written with a slash before the closing angle bracket to indicate that they do not have a
+        closing tag. While the closing slash is optional in HTML5, it is still recommended to include it for
+        compatibility with older browsers and versions of HTML.
+    </p>
+    <hr>
+    <hr>
+
+
+
+    <h3 class="text-h3"> Q-4. What are HTML Entities?</h3>
+    <p> <span> ANS:- </span> &nbsp;HTML entities are special codes that are used to represent characters that cannot be
+        typed using the keyboard or that have special meaning in HTML. HTML entities are written using a special syntax
+        that starts with an ampersand (&) and ends with a semicolon (;).
+
+        For example, the HTML entity &lt; represents the less-than symbol (<), while &gt; represents the greater-than
+            symbol (>).
+
+            HTML entities are commonly used to display special characters, such as copyright symbols (©), registered
+            trademarks (®), or mathematical symbols (Σ).
+
+            Here are a few examples of HTML entities: <br>
+
+            &copy;: Copyright symbol (©) <br>
+            &reg;: Registered trademark symbol (®) <br>
+            &euro;: Euro currency symbol (€) <br>
+            &nbsp; nbsp: Non-breaking space</p>
+    <hr>
+    <hr>
+
+
+    <h3 class="text-h3"> Q-5. What are different types of lists in HTML?</h3>
+    <p> <span> ANS:- </span> &nbsp;In HTML, there are three types of lists that can be used to organize and structure
+        content on a web page: ordered lists, unordered lists, and definition lists.
+
+        Ordered lists (ol): Ordered lists are used to create lists of items that have a specific order or sequence. Each
+        item in an ordered list is preceded by a number or letter.
+        Example:
+
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    Unordered lists (ul): Unordered lists are used to create lists of items that do not have a specific order or
+    sequence. Each item in an unordered list is preceded by a bullet point.
+    Example:
+
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    Definition lists (dl): Definition lists are used to create lists of terms and their definitions. Each term is
+    defined using a definition element (dt), and each definition is provided using a description element (dd).
+    Example:
+
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition of term 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition of term 2</dd>
+        <dt>Term 3</dt>
+        <dd>Definition of term 3</dd>
+    </dl>
+    By using these list types, you can effectively organize and structure your content to make it more readable and
+    accessible for your website visitors.</p>
+    <hr>
+    <hr>
+
+
+    <h3 class="text-h3"> Q-6. What is the ‘class’ attribute in HTML?</h3>
+    <p class="text-p"> <span> ANS:- </span> &nbsp;The class attribute is an HTML attribute that is used to assign one or more classes to an HTML
+        element. Classes are used to group elements together based on common characteristics, such as their appearance,
+        behavior, or functionality.The class attribute can be used on any HTML element, including headings, paragraphs,
+        links, images, and more. By using classes, you can easily apply consistent styles to multiple elements on your
+        web page, without having to write separate CSS rules for each individual element.</p>
+    <hr>
+    <hr>
+
+
+    <h3 class="text-h3">  Q-7. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+        elements?</h3>
+    <p id="text-id"> <span> ANS:- </span> &nbsp;The id attribute and the class attribute are both used to assign a name to an HTML element, but they
+        serve different purposes and have different rules.
+
+        The id attribute is used to uniquely identify an element on a web page. Each id attribute value must be unique
+        within the page, and can only be used once per element. This means that if you use the same id attribute value
+        on multiple elements, it will be invalid HTML. The id attribute is often used to target specific elements with
+        CSS or JavaScript.</p>
+    <p class="text-c">On the other hand, the class attribute is used to group elements together based on common
+        characteristics, such as their appearance, behavior, or functionality. Multiple elements can have the same class
+        attribute value, and an element can have multiple classes assigned to it by separating the class names with a
+        space. This allows for greater flexibility in styling and organizing elements on a web page.</p>
+    <hr>
+    <hr>
+
+
+
+    <h3 class="text-h3">  Q-8. What are the various formatting tags in HTML?</h3>
+    <p> <span> ANS:- </span> &nbsp;HTML provides various formatting tags to style the text and structure of a web page. Here are some of the most
+        commonly used formatting tags in HTML, along with examples of how they can be used:
+
+    <h1> to <h6> These tags are used to create headings of different sizes, with <h1> being the largest and <h6> being
+                    the smallest. Example: <h1>Welcome to my website!</h1>
+
+                    <p> This tag is used to create paragraphs of text. Example:
+                    <p>This is a paragraph of text.</p>
+
+                    <em> This tag is used to emphasize text, usually by making it italicized.</em> Example: This is
+                    <em>important</em> information.</p>
+
+                    <strong> This tag is used to make text stand out, usually by making it bold. Example: <p>
+                            <strong>Warning:</strong> Do not attempt this at home.
+                        </p>
+
+                        <a> This tag is used to create hyperlinks to other web pages or resources. Example: <a
+                                href="https://www.google.com" target="_blank">Visit Google</a>
+
+                            ul and ol These tags are used to create unordered and ordered lists, respectively. Example:
+
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+
+                            <ol>
+                                <li>First</li>
+                                <li>Second</li>
+                                <li>Third</li>
+                            </ol>
+                            <br> This tag is used to create line breaks within a block of text. Example: <p>This is the
+                                first line.<br>This is the second line.</p>
+
+                            These are just a few examples of the many formatting tags available in HTML. By using these
+                            tags, web developers can structure their content and style their web pages to create
+                            visually appealing and user-friendly websites.</p>
+                            <hr>
+                            <hr>
+
+
+
+                            <h3 class="text-h3"> Q-9. How is Cell Padding different from Cell Spacing?</h3>
+                            <p> <span> ANS:- </span> &nbsp; Cell padding and cell spacing are both used to create space between cells in an HTML
+                                table, but they function in different ways: <br><br>
+
+                                Cell Padding: Cell padding is used to add space within a cell of an HTML table, between
+                                the cell content and the cell border. This can be used to create some breathing room
+                                around the content within a cell. The cell padding value is specified using the
+                                "cellpadding" attribute in the <table> tag. Example:
+
+                                    <table cellpadding="10">
+                                        <tr>
+                                            <td>Cell 1</td>
+                                            <td>Cell 2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cell 3</td>
+                                            <td>Cell 4</td>
+                                        </tr>
+                                    </table>
+                                    In this example, the cellpadding attribute is set to 10, so there will be 10 pixels
+                                    of padding between the cell content and the cell border. <br><br>
+
+                                    Cell Spacing: Cell spacing is used to create space between cells in an HTML table.
+                                    This can be used to make the table easier to read and navigate, by adding space
+                                    between cells to make it clear where one cell ends and another begins. The cell
+                                    spacing value is specified using the "cellspacing" attribute in the <table> tag.
+                                        Example:
+
+                                        <table cellspacing="5">
+                                            <tr>
+                                                <td>Cell 1</td>
+                                                <td>Cell 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cell 3</td>
+                                                <td>Cell 4</td>
+                                            </tr>
+                                        </table>
+                                        In this example, the cellspacing attribute is set to 5, so there will be 5
+                                        pixels of space between each cell in the table.
+
+                                        In summary, cell padding is used to add space within a cell, while cell spacing
+                                        is used to add space between cells in an HTML table.</p>
+                            <hr>
+                            <hr>
+
+
+
+                            <h3 class="text-h3"> Q-10. How can we club two or more rows or columns into a single row or
+                                column in an HTML table?</h3>
+                            <p> <span> ANS:- </span> &nbsp; In HTML, we can use the rowspan and colspan attributes to combine multiple rows or
+                                columns into a single row or column. <br><br>
+
+                                To combine two or more rows into a single row, we can use the rowspan attribute. The
+                                value of the rowspan attribute specifies the number of rows that the cell should span.
+                                <br><br>
+
+                                Here is an example:
+
+                                <table>
+                                    <tr>
+                                        <td rowspan="2">Row 1 Cell 1</td>
+                                        <td>Row 1 Cell 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 2 Cell 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 3 Cell 1</td>
+                                        <td>Row 3 Cell 2</td>
+                                    </tr>
+                                </table>
+                                In this example, the first cell in the first row spans two rows using rowspan="2". This
+                                means that it takes up the space of two cells in the second row. <br><br>
+
+                                To combine two or more columns into a single column, we can use the colspan attribute.
+                                The value of the colspan attribute specifies the number of columns that the cell should
+                                span. <br><br>
+
+                                Here is an example:
+
+                                <table>
+                                    <tr>
+                                        <td>Row 1 Cell 1</td>
+                                        <td colspan="2">Row 1 Cell 2 and 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 2 Cell 1</td>
+                                        <td>Row 2 Cell 2</td>
+                                        <td>Row 2 Cell 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 3 Cell 1</td>
+                                        <td>Row 3 Cell 2</td>
+                                        <td>Row 3 Cell 3</td>
+                                    </tr>
+                                </table>
+                                In this example, the second cell in the first row spans two columns using colspan="2".
+                                This means that it takes up the space of two cells in the same row.
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3"> Q-11. What is the difference between a block-level element and an
+                                inline element? </h3>
+                            <p> <span> ANS:- </span> &nbsp; A block-level element starts on a new line and takes up the full width available, and it
+                                also has a vertical space between it and the elements above and below it. Block-level
+                                elements are typically used to create larger structural sections of a web page, such as
+                                headers, paragraphs, lists, and divisions.
+
+                                Examples of block-level elements include:
+
+                                <p> (paragraph)</p>
+                                <div> (division)</div>
+                                <h1> headings <h6> (headings) </h6>
+                                    <ul> and <ol> (unordered and ordered lists) <br><br></ol>
+                                    </ul>
+                                    <form> (form) <br><br></form>
+                                    An inline element, on the other hand, does not start on a new line and only takes up
+                                    as much width as necessary. It does not create any vertical space between itself and
+                                    adjacent elements. Inline elements are typically used to apply styles to specific
+                                    parts of a text, such as emphasizing a word, linking to another page, or styling a
+                                    code snippet.
+
+                                    Examples of inline elements include:
+
+                                    <a> (anchor) <br><br></a>
+                                    <strong> and <em> (bold and italic) <br><br></em></strong>
+                                    <span> (generic inline container) <br><br></span>
+                                    <code> (inline code) <br><br></code>
+                                    Here's an example of how block-level and inline elements behave differently:
+
+                                    <!DOCTYPE html>
+                                    <html>
+
+                                    <head>
+                                        <title>Block-level vs Inline Elements</title>
+                                        <style>
+                                            .block {
+                                                background-color: lightblue;
+                                                padding: 10px;
+                                                font-size: 20px;
+                                            }
+
+                                            .inline {
+                                                background-color: lightgreen;
+                                                padding: 5px;
+                                                font-size: 20px;
+                                            }
+                                        </style>
+                                    </head>
+
+                                    <body>
+                                        <div class="block">
+                                            This is a block-level element. It starts on a new line and takes up the full
+                                            width available.
+                                        </div>
+                                        <span class="inline">This is an inline element. It only takes up as much width
+                                            as necessary.</span>
+                                        <div class="block">
+                                            Another block-level element.
+                                        </div>
+                                    </body>
+
+                                    </html>
+                                    In this example, the first and third (div) elements are block-level elements, while
+                                    the (span) element is an inline element. The block-level elements are displayed as
+                                    separate paragraphs with a line break between them, while the inline element is
+                                    displayed inline with the surrounding text. The block-level elements also have a
+                                    larger background color and padding applied to them.
+
+                            </p>
+                            <hr>
+                            <hr>
+
+
+                            <h3 class="text-h3"> Q-12. How to create a Hyperlink in HTML?</h3>
+                            <p> <span> ANS:- </span> &nbsp; In HTML, you can create a hyperlink using the anchor element <a>. An anchor element
+                                    creates a link to another webpage or a specific location within the current webpage.
+                                    Here is an example of how to create a hyperlink in HTML:
+
+                                    <!DOCTYPE html>
+                                    <html>
+
+                                    <head>
+                                        <title>My Webpage</title>
+                                    </head>
+
+                                    <body>
+                                        <h1>Welcome to my webpage!</h1>
+                                        <p>Check out my <a href="file:///D:/html%20practice/convertio-2/index.html"
+                                                target="_blank">Convertio</a>.</p>
+                                    </body>
+
+                                    </html>
+                                    In this example, we have an <a> element with an href attribute that specifies the
+                                        URL of the page we want to link to. In this case, the URL is
+                                        "https://www.example.com". The text "favorite website" between the opening and
+                                        closing <a> tags is what the user will click on to follow the link. When the
+                                            user clicks on the link, they will be taken to the URL specified in the href
+                                            attribute.
+
+                                            Note that the text between the <a> tags can be any text or HTML element,
+                                                such as an image or a button. The href attribute can also be a relative
+                                                URL, which links to a page or file within the same website. For example,
+                                                if we wanted to link to a file called "about.html" in the same directory
+                                                as our current HTML file, we could use a relative URL like this:
+
+
+                                                <a href="file:///D:/html%20practice/foods/index.html"
+                                                    target="_blank">Food Websit</a>
+                                                This would create a hyperlink that takes the user to the "about.html"
+                                                file in the same directory when they click on the "About Me" text.
+
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+                            <h3 class="text-h3">Q-13. What is the use of an iframe tag?</h3>
+                            <p> <span> ANS:- </span> &nbsp; The (iframe) tag in HTML is used to embed another HTML document or web page within the
+                                current document. This can be useful for displaying content from another website or for
+                                dividing a single webpage into multiple sections.
+
+                                Here's an example of how to use the (iframe) tag:
+
+                                <!DOCTYPE html>
+                                <html>
+
+                                <head>
+                                    <title>My Webpage</title>
+                                </head>
+
+                                <body>
+                                    <h1>Welcome to my webpage!</h1>
+                                    <p>Here is an embedded YouTube video:</p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4tjCAVnGSSk"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </body>
+
+                                </html> <br><br>
+                                In this example, we have an (iframe) element that contains an embedded YouTube video.
+                                The src attribute specifies the URL of the video to be embedded, and the width and
+                                height attributes determine the size of the video player. The frameborder attribute
+                                specifies whether or not the iframe should have a border, and the allowfullscreen
+                                attribute allows the video to be viewed in full-screen mode.
+
+                                The content within the (iframe) tag is displayed within a separate rectangular area on
+                                the webpage, called an "inline frame". The content within the iframe can be styled and
+                                manipulated just like any other HTML document. It is also possible to communicate
+                                between the parent document and the embedded document using JavaScript.
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3">Q-14.What is the use of a span tag? Explain with example?</h3>
+                            <p> <span> ANS:- </span> &nbsp; The <span> tag is an inline HTML element used to apply styles and formatting to a
+                                    specific section of text within a larger block of content. It is often used to group
+                                    a few words or a small section of text together, so that they can be styled or
+                                    manipulated as a unit.
+
+                                    Here is an example of how the <span> tag can be used:
+
+                                        <p>This is a <span style="color: red;">red</span> apple.</p>
+                                        In this example, the word "red" is wrapped in a <span> tag with a style
+                                            attribute that sets the color of the text to red. The result is that only
+                                            the word "red" is displayed in red, while the rest of the text remains
+                                            black.
+
+                                            You can also use CSS to style the <span> tag. For example, you could define
+                                                a CSS class like this:
+
+                                                .red {
+                                                color: red;
+                                                }
+                                                And then use it to style the <span> tag like this:
+
+                                                    <p>This is a <span class="red">red</span> apple.</p>
+                                                    This has the same effect as the previous example, but the styling is
+                                                    defined in a separate CSS file or in a (style) element in the head
+                                                    of the document. Using CSS classes instead of inline styles is
+                                                    generally considered to be better practice because it separates the
+                                                    presentation of the content from the structure of the document.</p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3">Q-15. How to insert a picture into a background image of a web page?
+                            </h3>
+                            <p> <span> ANS:- </span> &nbsp; To insert a picture into a background image of a web page, you can use CSS to set the
+                                background image and then add an <img> element within the container element.
+
+                                Here is an example:
+
+                                <div class="container">
+                                    <!-- <img src="image.jpg" alt="Image description"> -->
+                                    <h1 class="h1">HELLO</h1>
+                                    <p class="p">This is some sample text.</p>
+                                </div>
+
+                                In this example, the (div) element with the class "container" is used to set the
+                                background image for the page. The background-image property is used to specify the URL
+                                of the background image. The background-size property is used to set the size of the
+                                background image to cover the entire container element, and the background-position
+                                property is used to center the image.
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3">Q-16. How are active links different from normal links? </h3>
+                            <p> <span> ANS:- </span> &nbsp; Active links and normal links are different in terms of their appearance and behavior
+                                when they are clicked.
+
+                                A normal link is a hyperlink that is displayed in a different color (usually blue) and
+                                is underlined by default. When a user clicks on a normal link, it typically navigates to
+                                a different web page or section within the same page.
+
+                                An active link, on the other hand, is a hyperlink that has been clicked but has not yet
+                                finished loading the new page or section. When a user clicks on an active link, the link
+                                is temporarily highlighted in a different color (usually a lighter shade of the link
+                                color) to indicate that it is currently active and being processed. <br><br>
+
+                                Here is an example of what an active link might look like: <br><br>
+
+                                <a href="http://google.com" class="active">Click here</a> <br><br>
+                                In this example, the <a> element is a hyperlink that points to the URL
+                                    "http://google.com". The class="active" attribute is used to apply a CSS class to
+                                    the link that defines its appearance when it is active.
+
+                                    In this example, the "active" class sets the color of the text to red, underlines
+                                    the link, and sets the background color to a light yellow to indicate that it is
+                                    currently active.
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+
+                            <h3 class="text-h3">Q-17. What are the different tags to separate sections of text? </h3>
+                            <p> <span> ANS:- </span> &nbsp; There are several HTML tags that can be used to separate sections of text within a web
+                                page. Here are some examples:
+
+                                <h1> to <h6></h6> These tags are used to create headings of different levels of
+                                    importance. They are typically used to break up a page into sections and provide a
+                                    hierarchy of information. For example: <br><br>
+
+                                    <h1>Main Heading</h1>
+                                    <p>This is the main content of the page.</p>
+
+                                    <h2>Subheading 1</h2>
+                                    <p>This is some additional information.</p>
+
+                                    <h3>Subheading 2</h3>
+                                    <p>This is even more information.</p>
+                                    <p> This tag is used to separate paragraphs of text. It is often used to break up
+                                        large blocks of text into more manageable sections. For example: <br>
+
+                                    <p>This is the first paragraph.</p>
+                                    <p>This is the second paragraph.</p>
+                                    <p>This is the third paragraph.</p>
+                                    <hr> This tag is used to create a horizontal line that separates content. It is
+                                    often used to break up a page into sections or to visually separate different types
+                                    of content. For example: <br><br>
+
+                                    <p>This is some text.</p>
+                                    <p>This is some more text.</p>
+                                    <br>This tag is used to create a line break within a paragraph of text. It is often
+                                    used to create space between lines of text or to separate content that is displayed
+                                    on the same line. For example: <br>
+
+                                    <p>This is the first line.
+                                        This is the second line.</p>
+                                    (div) This tag is used to create a container for a section of content. It is often
+                                    used to group related content together and apply styles or formatting to the entire
+                                    group. For example:
+
+                                    <div>
+                                        <h2>Heading</h2>
+                                        <p>This is some text.</p>
+                                        <p>This is some more text.</p>
+                                    </div>
+                                    These are just a few examples of the many HTML tags that can be used to separate
+                                    sections of text on a web page. The choice of tag depends on the specific needs of
+                                    the content and the desired layout of the page.
+
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+
+                            <h3 class="text-h3">Q-18. What is SVG?</h3>
+                            <p> <span> ANS:- </span> &nbsp; SVG stands for Scalable Vector Graphics. It is a vector image format used to display
+                                images and graphics on the web that can be scaled up or down without losing quality. SVG
+                                images are based on XML, which means they can be created and edited with a text editor
+                                or a vector graphics editor.</p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3">Q-19. What is difference between HTML and XHTML?</h3>
+                            <p> <span> ANS:- </span> &nbsp; HTML (Hypertext Markup Language) and XHTML (Extensible Hypertext Markup Language) are
+                                both markup languages used to create web pages. However, there are some key differences
+                                between the two. <br><br>
+
+                                The main difference between HTML and XHTML is that XHTML is a stricter, more
+                                standardized version of HTML that is based on XML. Here are some examples of the
+                                differences between the two: <br><br>
+
+                                Syntax: XHTML has a stricter syntax than HTML. For example, all elements must be
+                                properly nested and closed, and all attributes must be in quotes. In HTML, some of these
+                                rules can be relaxed or ignored. Here is an example of an HTML unordered list:
+
+                                <ul>
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                    <li>Item 3</li>
+                                </ul>
+                                Here is the same list in XHTML:
+
+                                <ul>
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                    <li>Item 3</li>
+                                </ul>
+                                Note that in XHTML, all elements must be closed with a closing tag, and all attribute
+                                values must be in quotes. <br><br>
+
+                                Case sensitivity: XHTML is case-sensitive, meaning that all elements and attributes must
+                                be written in lowercase. HTML, on the other hand, is case-insensitive, meaning that it
+                                doesn't matter whether you write elements and attributes in uppercase or lowercase. Here
+                                is an example of an HTML image tag:
+
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+
+                            <h3 class="text-h3">Q-20. What are logical and physical tags in HTML? </h3>
+                            <p> <span> ANS:- </span> &nbsp; In HTML, there are two types of tags: logical tags and physical tags. <br><br>
+
+                                Logical tags: Logical tags are also known as semantic tags. They describe the meaning of
+                                the content they enclose, rather than its appearance. Logical tags help search engines
+                                and screen readers to understand the content of a web page, and make it more accessible
+                                to users. Here are some examples of logical tags:
+
+                                <header>HELLO</header> - defines a header for a document or section
+                                <nav>HELLO</nav> - defines a set of navigation links
+                                <main>HELLO</main> - defines the main content of a document
+                                <article>HELLO</article> - defines an article or blog post
+                                <aside>HELLO</aside> - defines content aside from the main content
+                                <footer>HELLO</footer> - defines a footer for a document or section <br><br>
+
+                                Physical tags: Physical tags, also known as presentational tags, define the appearance
+                                of the content they enclose. Physical tags are used to apply formatting, such as font
+                                size, color, or alignment, to text and other elements. Here are some examples of
+                                physical tags: <br><br>
+
+                                <b>HELLO</b> - bold text <br>
+                                <i>HELLO</i> - italicized text <br>
+                                <u>HELLO</u> - underlined text <br>
+                                <s>HELLO</s> - strikethrough text <br>
+                                <font>HELLO</font> - defines font family, size, and color <br>
+                                <table>HELLO</table> - defines a table <br>
+                                <div>HELLO</div> - defines a container for other elements <br>
+                                <span>HELLO</span> - defines a small section of text <br>
+                                It's important to note that while physical tags are still supported in HTML, they are
+                                considered outdated and should be avoided in favor of logical tags and Cascading Style
+                                Sheets (CSS) for styling and layout. Logical tags provide a more meaningful structure to
+                                the content and allow for better accessibility and search engine optimization. CSS
+                                separates the presentation from the content, making it easier to update the design of a
+                                web page without changing its HTML structure.
+                            </p>
+                            <hr>
+                            <hr>
+
+
+
+</body>
+
+</html>

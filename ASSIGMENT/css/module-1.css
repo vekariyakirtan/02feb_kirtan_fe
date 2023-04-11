@@ -1,0 +1,57 @@
+.text-h3 {
+    color: lightcoral;
+}
+.main-h1{
+  border: 3px solid lightblue;
+  margin: 0px 480px;
+  padding: 10px;
+  color: lightcoral;
+}
+span {
+    color: #000;
+}
+.attributes{
+    background: url(../img/img-1.jpeg) no-repeat;
+    font-size: 40px;
+    background-size: 100% 100%;
+    color: lightcoral;
+}
+.text-p{
+    background-color: lightskyblue;
+    border: 3px solid lightsalmon;
+    padding: 20px;
+}
+#text-id{
+    background-color: lightslategray;
+    border: 3px dotted #000;
+    padding: 20px;
+}
+.text-c{
+    border: 3px solid lightgreen;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.container {
+    background-image: url('../img/img-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+  }
+  
+  .container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .h1{
+    color: #fff;
+  }
+  .p{
+    color: #fff;
+  }
+  a.active {
+    color: red; 
+    text-decoration: underline;
+    background-color: yellow; 
+  }

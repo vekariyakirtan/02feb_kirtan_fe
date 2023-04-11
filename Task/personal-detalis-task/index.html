@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=B.C.A.0">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<style>
+    .btn {
+        width: 150px;
+        height: 30px;
+        background-color: orange;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 15px;
+    }
+</style>
+
+<body>
+    <center>
+
+        <form action="https://www.google.in" method="post" style="background-color: lightgreen;"><br><br>
+            <h1 style="color: red;">Personal Details</h1>
+
+            <label for="fnm">Name:</label>
+            <input type="text" name="lnm" id=""><br><br>
+            <i class="fa-solid fa-lock"></i>&nbsp;<label for="pass">Password:</label>
+            <input type="password" name="pass" id=""><br><br>
+            <i class="fa-solid fa-envelope"></i>&nbsp<label for="pass">E-mailid:</label>
+            <input type="text" name="lnm" id=""><br><br>
+            <i class="fa-solid fa-person"></i>&nbsp<i class="fa-solid fa-person-dress"></i>&nbsp<label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            <i class="fa-solid fa-phone"></i> <label for="fnm">Contact</label>
+            <input type="text" name="number" id=""><br><br>
+            <h2 style="color: red;">Educational Qualification</h2><br>
+            <label for="pass">Degree:</label>
+            <select name="Degree" id="">
+                <option value="select">---select Group---</option>
+                <option value="B.C.A">B.C.A</option>
+                <option value="B.com">B.com</option>
+                <option value="B.A">B.A</option>
+                <option value="M.com">M.com</option>
+                <option value="B.B.A">B.B.A</option>
+            </select><br><br>
+            <label for="Engineering">Engineering:</label>
+            <select name="Engineering" id="">
+                <option value="select">--select Group--</option>
+                <option value="B.C.A">Softwer engineering</option>
+                <option value="B.com">Mechanical engineering</option>
+            </select><br><br>
+            <label>Hobbies:</label>
+            <input type="checkbox" id="" name="" required>
+            <label for="male">Playing Chess</label>
+            <input type="checkbox" id="" name="" required>
+            <label for="male">Reading Books</label><br><br><br>
+            <label for="Address" style="font-size: 30px; color: red;">Address <i
+                    class="fa-solid fa-location-dot"></i></label><br><br>
+            <textarea cols="30" rows="5"></textarea><br><br>
+            <label for="Attch Resume">Attch Resume:</label>
+            <input type="file" style="text-decoration: none; color: black;"></input> <br><br>
+            <button class="btn">
+                <a href="https://www.google.in" target="_blank" type="button"
+                    style="text-decoration: none; color: #fff; ">Submit <i class="fa-regular fa-circle-right"></i></a>
+            </button><br><br>
+        </form>
+
+    </center>
+</body>
+
+</html>

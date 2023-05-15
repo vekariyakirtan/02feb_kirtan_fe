@@ -1,0 +1,25 @@
+.main-h1{
+    border: 3px solid royalblue;
+    margin: 0px 440px;
+    padding: 10px;
+    color: lightcoral;
+  }
+.text-h3 {
+    color: lightcoral;
+}
+hr{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+p{
+    font-size: 15px;
+}
+#text-h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+#text-p {
+    color: #666;
+    font-size: 1.2em;
+}

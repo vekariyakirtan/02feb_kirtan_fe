@@ -1,0 +1,36 @@
+.main-h1{
+    border: 3px solid royalblue;
+    margin: 0px 440px;
+    padding: 10px;
+    color: lightcoral;
+  }
+.text-h3 {
+    color: lightcoral;
+}
+hr{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+p{
+    font-size: 15px;
+}
+.no-repeat {
+    background-image: url('../img/img-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img {
+    margin-top: 20px;
+    background-image: url('../img/img-1.jpeg');
+    background-repeat: repeat-x;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 18px;
+}

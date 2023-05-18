@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.4);
+}
+form{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.sign-in{
+    margin-top: 20px;
+    width: 35%;
+    background: #fff;
+    border-radius: 15px;
+}
+.logo img{
+    width: 80px;
+}
+.text-h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+}
+.Google{
+    padding-top: 30px;
+    padding: 20px;
+    position: relative;
+}
+.Google input{
+    padding: 10px;
+    width: 260px;
+    height: 42px;
+    border-radius: 20px;
+    color: #3c4043;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 40px;
+    text-align: center;
+    outline: none;
+    border: 1.5px solid #999;
+}
+
+.Google input:hover{
+    background: #e7e7e749;
+    transition: all 0.2s ease-in-out;
+}
+.Google img{
+    width: 5%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 61px;
+}
+.apple{
+    padding: 3px;
+    position: relative;
+}
+.apple input{
+    padding: 10px;
+    width: 260px;
+    border-radius: 20px;
+    /* color: #3c4043; */
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 40px;
+    text-align: center;
+    outline: none;
+    color: #000;
+    border: 1.5px solid #999;
+}
+
+.apple input:hover{
+    background: #dfdfdfcc;
+    transition: all 0.2s ease-in-out;
+}
+.apple img{
+    width: 5%;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 54px;
+}
+
+.or{
+    width: 130px;
+    height: 2px;
+    border: 1px solid #beb9b9e3;
+    margin: 9px 0px 0px 95px;
+    position: absolute;
+}
+.or-1{
+    width: 130px;
+    height: 2px;
+    border: 1px solid #beb9b9e3;
+    margin: -9px 0px 0px 253px;
+    position: absolute;
+}
+.border{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 280px;
+    height: 35px;
+    border: 0px solid #000;
+    border-radius: 50px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+}
+.btn:hover{
+    background: #000000d2;
+    transition: all 0.2s ease-in-out;
+}
+
+.Sign-up{
+    margin-top: 20px;
+    margin-left: -70px;
+}
+.Sign-up span{
+    color: #999;
+    font-family: 'Manrope', sans-serif;
+}
+.Sign-up span a{
+    color: rgb(80, 191, 235);
+    text-decoration: none;
+}
+.Sign-up span a:hover{
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+}
+.Sign-up-2 span{
+    margin-left: 85px;
+    font-size: 13px;
+}
+.log-in{
+    margin-top: 20px;
+    margin-left: -45px;
+}
+.log-in{
+    color: #999;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+}
+.log-in span a{
+    color: rgb(80, 191, 235);
+    text-decoration: none;
+}
+.log-in span a:hover{
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+}

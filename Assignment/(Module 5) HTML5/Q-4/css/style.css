@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@500&family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+.main-h1{
+    border: 3px solid royalblue;
+    margin: 0px 500px;
+    padding: 10px;
+    color: orangered;
+  }
+  .main{
+    background: lightblue;
+    padding: 20px;
+  }
+hr{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.text-h3 {
+    color: orangered;
+}
+div {
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+.main .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .btn a{
+    text-decoration: none;
+    color: orangered;
+}

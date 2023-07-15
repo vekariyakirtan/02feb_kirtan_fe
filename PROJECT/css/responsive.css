@@ -1,0 +1,293 @@
+@media (max-width:768px) {
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg_bag {
+        display: none;
+    }
+
+    #hero {
+        height: 70vh;
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe_box {
+        margin: 15px 15px;
+    }
+
+    #product1 .pro_container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #sm_banner .banner_box {
+        min-width: 100%;
+        height: 65vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #banner_3 {
+        padding: 0px 40px;
+    }
+
+    #banner_3 .banner_box {
+        width: 28%;
+        height: 40vh;
+    }
+
+    #banner_3 h2 {
+        font-size: 14px;
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
+
+    /* Shop Page start */
+
+    #page_header {
+        width: 100%;
+        height: 60vh;
+        background-size: cover;
+        padding: 14px;
+    }
+
+    /* Shop Page End */
+
+    /* CONTACT PAGE START */
+
+    #form_details {
+        padding: 40px;
+    }
+
+    #form_details form {
+        width: 50%;
+    }
+
+    /* CONTACT PAGE END */
+
+
+}
+
+@media (max-width:477px) {
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        background-position: 55%;
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe_box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm_banner .banner_box {
+        height: 40vh;
+    }
+
+    #sm_banner .banner_box_2 {
+        margin-top: 20px;
+    }
+
+    #banner_3 .banner_box {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+
+    /* Single Product Start */
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single_pro_image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single_pro_details {
+        width: 100%;
+    }
+
+    /* Single Product End */
+
+    /* BLOG PAGE START */
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog_box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog_img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog_details {
+        width: 100%;
+    }
+
+    /* BLOG PAGE END */
+
+    /* ABOUT PAGE START */
+
+    #about_head {
+        flex-direction: column;
+    }
+
+    #about_head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about_head div {
+        padding-left: 0;
+    }
+
+    #about_app .video {
+        width: 100%;
+    }
+
+    /* ABOUT PAGE END */
+
+    /* CONTACT PAGE START */
+
+    #contact_details {
+        flex-direction: column;
+    }
+
+    #contact_details .details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact_details .map {
+        width: 100%;
+    }
+
+    #form_details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form_details form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* CONTACT PAGE END */
+
+    /* CART PAGE STYLE START */
+
+    #cart_add {
+        flex-direction: column;
+    }
+    #coupon {
+        width: 100%;
+    }
+    #subtotal {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* CART PAGE STYLE END */
+}
